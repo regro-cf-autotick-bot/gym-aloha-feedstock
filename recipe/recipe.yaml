@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: gym-aloha
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/g/gym-aloha/gym_aloha-${{ version }}.tar.gz
-    sha256: 0dc4e645045aeb3e74e3c320872d28df6dc93a8751d6ab2f266a2ca11323131f
+    sha256: 96648c0c49992476e90dec64cf19a78b7a468c0c25902d4e8c58b5b11d3a110d
 
 build:
   script: ${{ PYTHON }} -m pip install --no-deps --no-build-isolation .
